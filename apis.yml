@@ -1,8 +1,27 @@
 aid: rentomojo
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rentomojo.png
 name: Rentomojo
-description: 'Rentomojo is a company surfaced as a portfolio company of accel, bain-capital-ventures and
-  added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Rentomojo is India''s largest tech-driven, full-stack direct-to-consumer
+  furniture and appliance rental platform, converting ownership into flexible monthly
+  subscriptions. Customers rent beds, sofas, wardrobes, refrigerators, washing machines,
+  air conditioners, water purifiers and other home essentials on plans from roughly
+  three to thirty-six months, with delivery, installation, maintenance, relocation
+  and upgrades handled in-house. Per its March 2026 draft red herring prospectus the
+  company operates across 22 Indian cities with 227,511 live subscribers and 1,688
+  in-house technicians, carpenters and painters. Backed by Accel and Bain Capital
+  Ventures. Added to the API Evangelist network from VC portfolio data; this pass
+  found no public developer API, SDK or documentation surface.'
 url: https://raw.githubusercontent.com/api-evangelist/rentomojo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +32,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
+- Furniture Rental
+- Appliance Rental
+- Subscription
+- Rental Marketplace
+- E-Commerce
+- India
+- D2C
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,4 +51,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.rentomojo.com
+  url: https://www.rentomojo.com
+- type: GitHubOrganization
+  url: https://github.com/RentoMojo
+- type: Blog
+  url: https://www.rentomojo.com/blog/
+- type: Support
+  url: https://www.rentomojo.com/contact
+- type: TermsOfService
+  url: https://www.rentomojo.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.rentomojo.com/privacy-policy
+- type: DomainSecurity
+  url: security/rentomojo-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
